@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		A415BC0A2227637500A480A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A415BC092227637500A480A5 /* AppDelegate.swift */; };
-		A415BC0C2227637500A480A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A415BC0B2227637500A480A5 /* ViewController.swift */; };
 		A415BC0F2227637500A480A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A415BC0D2227637500A480A5 /* Main.storyboard */; };
 		A415BC112227637600A480A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A415BC102227637600A480A5 /* Assets.xcassets */; };
 		A415BC142227637600A480A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A415BC122227637600A480A5 /* LaunchScreen.storyboard */; };
 		A415BC1F2227637700A480A5 /* Tumblr_PostsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A415BC1E2227637600A480A5 /* Tumblr_PostsTests.swift */; };
 		A415BC2A2227637700A480A5 /* Tumblr_PostsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A415BC292227637700A480A5 /* Tumblr_PostsUITests.swift */; };
+		A415BC38222763F000A480A5 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A415BC37222763F000A480A5 /* PhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		A415BC062227637500A480A5 /* Tumblr Posts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tumblr Posts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A415BC092227637500A480A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A415BC0B2227637500A480A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A415BC0E2227637500A480A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A415BC102227637600A480A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A415BC132227637600A480A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		A415BC252227637700A480A5 /* Tumblr PostsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tumblr PostsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A415BC292227637700A480A5 /* Tumblr_PostsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tumblr_PostsUITests.swift; sourceTree = "<group>"; };
 		A415BC2B2227637700A480A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A415BC37222763F000A480A5 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				A415BC092227637500A480A5 /* AppDelegate.swift */,
-				A415BC0B2227637500A480A5 /* ViewController.swift */,
+				A415BC37222763F000A480A5 /* PhotoViewController.swift */,
 				A415BC0D2227637500A480A5 /* Main.storyboard */,
 				A415BC102227637600A480A5 /* Assets.xcassets */,
 				A415BC122227637600A480A5 /* LaunchScreen.storyboard */,
@@ -256,8 +256,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A415BC0C2227637500A480A5 /* ViewController.swift in Sources */,
 				A415BC0A2227637500A480A5 /* AppDelegate.swift in Sources */,
+				A415BC38222763F000A480A5 /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
